@@ -39,8 +39,8 @@
           async function fetchIssues() {
             if (!issues) {
               const { url, ...options } = endpoint("GET /repos/:owner/:repo/issues", {
-                owner: "mateogianolio",
-                repo: "issuance",
+                owner: "itsmat32143",
+                repo: "tv.bannedapps.uk",
                 auth: 'x'
               });
               const res = await fetch(url, options);
